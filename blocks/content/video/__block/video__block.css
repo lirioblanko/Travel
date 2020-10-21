@@ -1,0 +1,126 @@
+.video__item {
+	/* width: 583px; */
+	width: calc(100% / 2);
+	border-radius: 5px;
+	margin-right: 18px;
+	position: relative; 
+	background-size: cover;
+	overflow: hidden;
+	padding: 2rem 2rem;
+	z-index: 0;
+}
+
+.video__item:last-child {
+	margin-right: 0px;
+}
+
+.video__item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.video__item-video1 {
+	background-image: url(../../../../images/video/ex1.png);
+}
+
+.video__item-video2 {
+	background-image: url(../../../../images/video/ex2.png);
+}
+
+.video__item-ico {
+  /* position: absolute;
+  top: 30px;
+  left: 30px; */
+  width: 41px;
+  height: 41px;
+ /*  animation: pulse 1s ease-in-out infinite alternate; */
+}
+
+.video__item-info_container {
+	margin-top: 4rem;
+}
+
+.video__item-info {
+	z-index: -2;
+	/* position: absolute;
+	bottom: 30px;
+	left: 30px; */
+	width: 100%;
+}
+
+.video__item-duration {
+	font-size: 12px;
+	flex-wrap: 500;
+	letter-spacing: 0.3em;
+	line-height: 13px;
+}
+
+.video__item-title {
+	max-width:322px;
+	margin: 0px;
+	line-height: 39px;
+	font-size: 36px;
+	font-weight: 900;
+	padding-top: 12px;
+}
+
+.video__item-subtitle {
+  	font-size: 14px;
+  	line-height: 15px;
+ 	margin: 0px;
+ 	padding-top: 18px;
+ 	font-weight: 400;
+}
+
+
+@media only screen and (max-width : 1200px) {
+    .video__item {
+		width: calc(100% - 3rem);
+		padding: 1.5rem 1.5rem;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+     
+}
+
+@media only screen and (max-width : 768px) {
+	 .video__item {
+		margin-right: 0px;
+		margin-bottom: 0.5rem;
+	}
+	.video__item:last-child {
+	margin-bottom: 0px;
+}
+.video__item-title {
+	max-width:295px;
+	font-size: 1.5rem;
+	padding-top: 0.5rem;
+}
+.video__item-subtitle {
+ 
+ 	padding-top: 0.5rem;
+ 	
+}
+
+}
+
+@media only screen and (max-width : 480px) {
+    
+}
+
+@media only screen and (max-width : 320px) {
+    .video__item {
+    	/* max-width: 288px;
+    			width: 100%; */
+
+    }
+}
+

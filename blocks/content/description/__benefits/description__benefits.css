@@ -1,0 +1,30 @@
+
+.description__benefits {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 35px;
+	margin-bottom: 0px;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.benefits-item {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.benefits__facts {
+	font-weight: normal;
+	margin-left: 5px;
+}
+
+
+@media only screen and (max-width : 768px) {
+ .benefits_item {
+	font-weight: 400;
+	font-size: 12px;
+}
+}

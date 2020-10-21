@@ -1,0 +1,23 @@
+
+.menu__item {
+    text-decoration: none;
+    margin-right: 1.125rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.menu__item:last-child {
+	margin-right: 0px;
+}
+
+.menu__item-active {
+	text-decoration-line: underline;
+}
+
+@media only screen and (max-width : 768px) {
+ 	.menu__item {
+	    margin-right: 1rem;
+	    font-size: 1.125rem;
+	    margin-bottom: 0.5rem;
+	}	
+}

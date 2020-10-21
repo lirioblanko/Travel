@@ -1,0 +1,69 @@
+@import url('./_theme/_dark/page_theme_dark.css');
+@import url('./main-screen/main-screen.css');
+@import url('./description/description.css');
+@import url('./gallery-grid/gallery-grid.css');
+@import url('./places/places.css');
+@import url('./video/video.css');
+@import url('./additional/additional.css');
+@import url('./photographers/photographers.css');
+@import url('./cover/cover.css');
+@import url('./emblem/emblem.css');
+@import url('./barentsburg/barentsburg.css');
+
+
+.link:hover {
+    opacity: 0.5;
+    transition: opacity .3s ease;
+}
+
+.section-title {
+	font-weight: 900;
+	font-size: 4.5rem;
+	line-height: 65px;
+	margin: 0px;
+}
+
+.section-subtitle {
+	font-weight: normal;
+	font-size: 1.5rem;
+	line-height: 35px;
+}
+
+.two-column {
+	display: flex;
+	flex-direction: row;
+}
+
+
+@media only screen and (max-width : 1200px) {
+    .section-title {
+		line-height: 75px;		
+	}
+}
+
+@media only screen and (max-width : 992px) {
+    
+}
+
+@media only screen and (max-width : 768px) {
+ 	.section-title {
+		font-size: 3rem;
+		line-height: 50px;		
+	}
+}
+
+@media only screen and (max-width : 480px) {
+    .section-title {
+		font-size: 2rem;
+		line-height: 35px;		
+	}
+
+	.section-subtitle {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+}
+
+@media only screen and (max-width : 320px) {
+    
+}

@@ -1,0 +1,21 @@
+.emblem__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 82px;
+}
+
+.emblem_img {
+height: 226px;
+width: auto;
+margin-bottom: 35px;
+}
+
+.emblem_title {
+	width: 208px;
+	font-size: 24px;
+	line-height: 26px;
+	text-align: center;
+	font-weight: 900;
+	color: #CCCCCC;
+}

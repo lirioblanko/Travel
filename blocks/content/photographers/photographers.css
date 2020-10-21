@@ -1,0 +1,70 @@
+@import url('./__container/photographers__container.css');
+
+.photographers {
+	font-family: Inter;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1184px;
+	margin: 6rem auto;
+	padding: 0 3rem;
+}
+
+.photographers-title {
+	width: 800px;
+	text-align: center;
+}
+
+.photographers-subtitle {
+	width: 640px;
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 0px;
+}
+
+.photographers__wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+@media only screen and (max-width : 1200px) {
+    
+}
+
+@media only screen and (max-width : 992px) {
+     .photographers-title {
+		width: 100%;
+	}
+
+	.photographers-subtitle {
+		width: 100%;
+		margin-top: 1.5rem;
+		max-width: 640px;
+	}
+
+ 	.photographers__wrapper {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+
+.photographers  {
+      padding: 0 1.5rem;
+      margin: 4rem auto;
+  }
+}
+
+@media only screen and (max-width : 480px) {
+    .photographers-subtitle {
+		margin-top: 1rem;
+	}
+}
+
+@media only screen and (max-width : 320px) {
+    
+}

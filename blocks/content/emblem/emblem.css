@@ -1,0 +1,24 @@
+@import url('./__container/emblem__container.css');
+
+.emblem {
+	font-family: Inter;
+	display: flex;
+	flex-direction: column;
+	width: 1184px;
+	margin: 82px auto;
+}
+
+.emblem-title {
+	width: 443px;
+	font-weight: 900;
+	font-size: 42px;
+	line-height: 46px;
+	margin: 0px;
+}
+
+.emblem__wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0;
+}
